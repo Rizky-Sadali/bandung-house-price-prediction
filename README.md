@@ -2,6 +2,8 @@
 
 An end-to-end data science project that scrapes, cleans, and analyzes housing data in Bandung, Indonesia.
 
+<img width="812" alt="kota_bandung_clean_price_map" src="https://github.com/Rizky-Sadali/bandung-house-price-prediction/blob/main/notebooks/kota_bandung_clean_price_map.png">
+
 ## Project Overview
 - **Data Collection:** Scraped 9,000+ listings from two major property platforms (anonymized as Platform A and Platform B) using Scrapy and Playwright.
 - **Data Cleaning:** AI-powered parsing (GPT-4o) and Google Maps Forward Geocoding to fix missing location data.
