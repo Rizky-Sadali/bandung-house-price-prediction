@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scrapy
+scrapy-playwright
+playwright
+googlemaps
+openai
+python-dotenv
+jupyter
+notebook
+tqdm

@@ -1,0 +1,24 @@
+# Security
+.env
+keys/
+secrets/
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Personal scratchpad
+scraps_notes_references/
+
+# Sanitation scripts (Optional: hide them to keep repo clean)
+sanitize_*.py
+repair_*.py
+prepare_for_github.py
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+data/raw/*.zip
