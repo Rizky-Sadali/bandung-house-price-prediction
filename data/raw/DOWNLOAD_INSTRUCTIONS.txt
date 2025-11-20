@@ -1,0 +1,26 @@
+# Required Data: Indonesia Village Boundaries (Level 4)
+
+The geospatial analysis in this project requires the Indonesia Administrative Boundaries shapefile (Level 4 - Desa/Kelurahan).
+Specifically, we use the file: `idn_admbnda_adm4_ID3_bps_20200401.shp` (Java Region).
+
+## Why is this file missing?
+The shapefile (~115 MB) exceeds GitHub's 100MB strict file size limit.
+
+## How to download it
+1. Visit the **Humanitarian Data Exchange (HDX)** Indonesia page:
+   https://data.humdata.org/dataset/cod-ab-idn
+
+2. Download the dataset labeled **"Indonesia - Subnational Administrative Boundaries"**.
+   - Look for the "Shapefile" (SHP) format.
+   - Filename is usually `idn_adm_bps_20200401_SHP.zip` or similar.
+
+3. Extract the zip file.
+   - Locate the `ID3` files (which correspond to the Java region).
+   - Move them into this folder: `data/raw/`
+
+## Required Files
+Ensure these files are present in `data/raw/` before running the notebooks:
+- idn_admbnda_adm4_ID3_bps_20200401.shp
+- idn_admbnda_adm4_ID3_bps_20200401.shx
+- idn_admbnda_adm4_ID3_bps_20200401.dbf
+- idn_admbnda_adm4_ID3_bps_20200401.prj
